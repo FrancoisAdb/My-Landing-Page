@@ -1,0 +1,104 @@
+body{
+	background-image: linear-gradient(to bottom, #2DE1C2, #5863F8);
+	color: #523E6B;
+  background-repeat: no-repeat;
+	font-size: 16px;
+	font-family: Avenir;
+	text-align: center;
+	margin: 0;
+    text-shadow: none;
+  padding: 0;}
+
+h1{  font-family: Avenir;  color: white; padding-top: 124px;  font-size: 40px;}
+
+h2 {  font-family: Avenir;  color: #2F61A2;  font-weight: lighter;  font-size: 24px;    text-shadow: none;}
+
+a {  color: white;  text-shadow: none;}
+a:hover {  text-decoration: none;  color: lightgrey;}
+
+img {
+   z-index: 1;
+}
+ 
+
+#Navbar{ background: transparent; padding: 15px; color: white; font-weight: lighter; text-align: right}
+
+.Navbarlogo {background: transparent; top: 0;  position: fixed;z-index: 2; margin-left : 0px; vertical-align: top; float:left;}
+
+.Nav{
+  position: fixed;
+  background: transparent;
+  transition: all .3s ease-out ; 
+  color: white;
+   padding: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;}
+
+
+.Nav:hover { background: #8093F1}
+.Nav:focus { outline: none}
+
+
+#banner{	padding: 64px;	opacity: 0.9;	color: white;  padding-top: 180px;  text-align: left;  margin-bottom: 164px;}
+
+#banner h1 {  color: white;  opacity: 1;  font-size: 40px;  font-weight: 100;}
+
+#banner h2 {  color: white;  opacity: 1;  font-size: 24px;  font-weight: 100;}
+
+
+#Valueprop {padding: 64px; background: white}
+#Valueprop h1 {  padding-top : 32px ;font-size: 20px;  text-align: center;   color : rgb(0,0,153);}
+#Valueprop h2 {  padding-top : 8px ;padding-bottom: 40px;font-size: 32px;  text-align: center;  color : rgb(0,0,153);}
+#Valueprop h3 {  padding-top : 32px; color: black;  opacity: 1;  font-size: 24px;    text-align: center;}
+#Valueprop h4 {  padding-top: 12px;padding-bottom: 80px;color: black; opacity: 1;  font-size: 20px;   text-align: center;font-weight: lighter}
+
+  .card{padding: 32px;font-weight: 10; text-align: center; font-size: 12px; text-align: center;}
+
+
+#Solution {padding: 64px;text-align: left;background-image: linear-gradient(to bottom, #2DE1C2, #5863F8)}
+#Solution h1{padding-top: 8px;text-align: center; color : #17183B ;font-size: 20px;}
+#Solution h2{padding-top: 24px;text-align: center; color : white;font-size: 44px;}
+#Solution h3{padding-top: 32px;text-align: left; color : white;font-size: 20px;font-weight: lighter;}
+#Solution h4{padding-top: 24px;text-align: left;font-size: 20px;color : #17183B}
+#Solution h5{padding-top: 8px;text-align: left;font-size: 16px;font-weight: lighter;color : white}
+
+#Howto {padding: 64px;background: white}
+#Howto h1 {padding-top : 32px ;font-size: 20px;  text-align: center;   color : #17183B;}
+#Howto h2 {padding-top : 24px;padding-bottom: 32px;font-size: 32px;  text-align: center;  color : #17183B;}
+#Howto h3 {text-align: left;color: black; opacity: 1;  font-size: 16px;font-weight: lighter}
+#Howto h4 {padding-bottom: 32px;text-align: center;color: #17183B; opacity: 1;  font-size: 16px;font-weight: lighter}
+
+  .card-logo{padding: 32px;font-weight: 10; text-align: center; font-size: 12px; text-align: center;}
+
+
+#About {padding: 64px;text-align: left;background-image: linear-gradient(to bottom, #5863F8, #8093F1);}
+#About h1{padding-top: 8px;text-align: center; color : #17183B ;font-size: 20px;}
+#About h2{padding-top: 24px;text-align: center; color : white;font-size: 32px;}
+#About h3{padding-top: 32px;text-align: center; color : white;font-size: 20px;font-weight: lighter;}
+#About h4{text-align: center;font-size: 20px;color : white}
+#About h5{text-align: center;font-size: 16px;font-weight: lighter;color : #17183B}
+
+.card-Pic{ padding-top: 32px;font-weight: 10; text-align: center; font-size: 12px; text-align: center;}
+
+#Contact {padding: 64px;text-align: left;background: white}
+#Contact h1{padding-top: 8px;text-align: center; color : #17183B ;font-size: 20px;}
+#Contact h2{padding-top: 24px;text-align: center; color : black;font-size: 32px;}
+#Contact h3{padding-top: 32px;text-align: left; color : black;font-size: 20px;font-weight: lighter;}
+#Contact h4{padding-top: 32px;padding-bottom: 80px ;text-align: left; color : black;font-size: 20px;font-weight: lighter;}
+
+.Mail{  font-size: 24px; color: black;}
+
+
+#footer{  padding: 20px;  background: rgb(20, 20, 20);  color: grey;  font-weight: lighter;  opacity: 0.9;  text-align: left;  }
+
+
+.social{	font-size: 24px;	color: white;}
+
+.footnote{ color: grey;  font-weight: lighter;opacity: 0.9;}
+
+
+
+
+
+
