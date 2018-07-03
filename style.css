@@ -16,13 +16,15 @@ h2 {  font-family: Avenir;  color: #2F61A2;  font-weight: lighter;  font-size: 2
 a {color: white;  text-shadow: none;}
 a:hover {  text-decoration: none;  color: lightgrey;}
 
-img {z-index: 1;}
+img {z-index: 1}
  
 
-#Navbar{; padding: 15px; color: white; font-weight: lighter; text-align: right}
-.Navbarlogo {; top: 0;  position: fixed;z-index: 2; margin-left : 0px; vertical-align: top; float:left;}
+#Navbar{z-index: 2;background: #2DE1C2; padding: 15px; color: white; font-weight: lighter; text-align: right}
+.Navbarlogo {background: #2DE1C2; top: 0;  position: fixed;z-index: 3; margin-left : 0px; vertical-align: top; float:left;}
 
 .Nav{
+  z-index: 2;
+  background: #2DE1C2;
   position: fixed;
   transition: all .3s ease-out ; 
   color: white;
@@ -32,7 +34,7 @@ img {z-index: 1;}
     width: 100%;}
 
 
-.Nav:hover { background: #8093F1}
+.Nav:hover { background: #2DE1C2}
 .Nav:focus { outline: none}
 
 
@@ -49,7 +51,7 @@ img {z-index: 1;}
 #Valueprop h3 {  padding-top : 32px; color: black;  opacity: 1;  font-size: 24px;    text-align: center;}
 #Valueprop h4 {  padding-top: 12px;padding-bottom: 80px;color: black; opacity: 1;  font-size: 20px;   text-align: center;font-weight: lighter}
 
-  .card{padding: 32px;font-weight: 10; text-align: center; font-size: 12px; text-align: center;}
+  .card{;padding: 32px;font-weight: 10; text-align: center; font-size: 12px; text-align: center;}
 
 
 #Solution {padding: 64px;text-align: left;background-image: linear-gradient(to bottom, #2DE1C2, #5863F8)}
@@ -65,7 +67,7 @@ img {z-index: 1;}
 #Howto h3 {text-align: left;color: black; opacity: 1;  font-size: 16px;font-weight: lighter}
 #Howto h4 {padding-bottom: 32px;text-align: center;color: #17183B; opacity: 1;  font-size: 16px;font-weight: lighter}
 
-  .card-logo{padding: 32px;font-weight: 10; text-align: center; font-size: 12px; text-align: center;}
+  .card-logo{;padding: 32px;font-weight: 10; text-align: center; font-size: 12px; text-align: center;}
 
 
 #About {padding: 64px;text-align: left;background-image: linear-gradient(to bottom, #5863F8, #8093F1);}
@@ -75,7 +77,7 @@ img {z-index: 1;}
 #About h4{text-align: center;font-size: 20px;color : white}
 #About h5{text-align: center;font-size: 16px;font-weight: lighter;color : #17183B}
 
-.card-Pic{ padding-top: 32px;font-weight: 10; text-align: center; font-size: 12px; text-align: center;}
+.card-Pic{ ;padding-top: 32px;font-weight: 10; text-align: center; font-size: 12px; text-align: center;}
 
 #Contact {padding: 64px;text-align: left;background: white}
 #Contact h1{padding-top: 8px;text-align: center; color : #17183B ;font-size: 20px;}
