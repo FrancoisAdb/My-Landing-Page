@@ -14,15 +14,16 @@ h1{  font-family: Avenir;  color: white; padding-top: 124px;  font-size: 40px;}
 h2 {  font-family: Avenir;  color: #2F61A2;  font-weight: lighter;  font-size: 24px;    text-shadow: none;}
 
 a {color: white;  text-shadow: none;}
-a:hover {  text-decoration: none;  color: lightgrey;}
+a:hover {  text-decoration: none;  color: #2F61A2;}
 
 img {z-index: 1}
  
 
 #Navbar{z-index: 2;background: #2DE1C2; padding: 15px; color: white; font-weight: lighter; text-align: right}
-.Navbarlogo {background: #2DE1C2; top: 0;  position: fixed;z-index: 3; margin-left : 0px; vertical-align: top; float:left;}
+.Navbarlogo {top: 0;  position: fixed;z-index: 3; margin-left : 0px; vertical-align: top; float:left;}
 
 .Nav{
+  opacity: 0.9;
   z-index: 2;
   background: #2DE1C2;
   position: fixed;
@@ -34,11 +35,11 @@ img {z-index: 1}
     width: 100%;}
 
 
-.Nav:hover { background: #2DE1C2}
+.Nav:hover { opacity: 1; background: #2DE1C2}
 .Nav:focus { outline: none}
 
 
-#banner{	padding: 64px;	opacity: 0.9;	color: white;  padding-top: 180px;  text-align: left;  margin-bottom: 164px;}
+#banner{	padding: 64px;	opacity: 1;	color: white;  padding-top: 180px;  text-align: left;  margin-bottom: 164px;}
 
 #banner h1 {  color: white;  opacity: 1;  font-size: 40px;  font-weight: 100;}
 
