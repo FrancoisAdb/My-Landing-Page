@@ -1,6 +1,7 @@
 body{
-	background-image: linear-gradient(to bottom, #2DE1C2, #5863F8);
-	color: #523E6B;
+	background-image: url(Image/guus-baggermans-331797-unsplash.jpg); 
+	 background-size: contain;
+  color: #523E6B;
   background-repeat: no-repeat;
 	font-size: 16px;
 	font-family: Avenir;
@@ -19,13 +20,13 @@ a:hover {  text-decoration: none;  color: #2F61A2;}
 img {z-index: 1}
  
 
-#Navbar{z-index: 2;background: #2DE1C2; padding: 16px; color: white; font-weight: lighter; text-align: right}
-.Navbarlogo {top: 0;  position: fixed;z-index: 3; margin-left : 0px; vertical-align: top; float:left;}
+#Navbar{z-index: 2;background: transparent; padding: 16px; color: white; font-weight: lighter; text-align: right}
+.Navbarlogo {top: 2px;  position: fixed;z-index: 3; margin-left : 2px; vertical-align: top; float:left;}
 
 .Nav{
   opacity: 0.9;
   z-index: 2;
-  background: #2DE1C2;
+  background: transparent;
   position: fixed;
   transition: all .3s ease-out ; 
   color: white;
