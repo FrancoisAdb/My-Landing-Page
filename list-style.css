@@ -1,0 +1,64 @@
+
+body{
+background: #F7F7F7;
+	 
+  color: #523E6B;
+  background-repeat: no-repeat;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;;
+	text-align: center;
+	margin: 0;
+    text-shadow: none;
+  padding: 0;}
+
+h1{  font-family: 'Roboto', sans-serif;  color: black; padding-top: 96px;  font-size: 40px;}
+
+h2 {  font-family: 'Roboto', sans-serif;  color: black;  font-weight: lighter;  font-size: 24px;    text-shadow: none;}
+
+
+a {color: black;  text-shadow: none}
+a:hover {  text-decoration: none;  color: #8093F1;}
+
+img {z-index: 1}
+ 
+
+
+ #Navbar{z-index: 2;background: #F7F7F7; padding: 16px; color: black; font-weight: lighter; text-align: right}
+.Navbarlogo {top: 2px;  position: fixed;z-index: 3; margin-left : 48px; vertical-align: top; float:left;}
+
+.Nav{opacity: 0.9; z-index: 2; background: #F7F7F7; ;position: fixed; transition: all .3s ease-out ;  color: white; padding: 24px; padding-right: 48px ;top: 0;   left: 0; width: 100%;}
+.list-inline{margin-right: 32px; word-spacing: 48px}
+
+.Nav:hover { opacity: 1; background: #2DE1C2}
+.Nav:focus { outline: none}
+
+ .btn-primary {margin-left: 64px;margin-bottom: 64px;background: linear-gradient(to right, #13C65B, #42EAF5);border: 0; border-radius: 1;box-shadow:  1px 2px 1px #888888;font-style: bold}
+.btn-primary:hover {background: linear-gradient(to right, #8093F1, #42EAF5);transition: all .3s ease-out }
+
+
+#list{text-align: left}
+
+  .card{padding-left: 24px;padding-right: 24px; text-align: left; font-size: 12px}
+.ul{list-style-position: inside;text-align: left;list-style-type: none;}
+
+
+#list h1 {text-align: center}
+#list h2 {text-align: left;padding-left:64px;}
+#list h3 {text-align: center}
+
+
+
+
+
+
+.Mail{  font-size: 24px; color: black;}
+
+
+#footer{ margin-top: 128px; padding: 20px;  background: rgb(20, 20, 20);  color: grey;  font-weight: lighter;  opacity: 0.9;  text-align: left}
+
+
+.social{	font-size: 24px;	color: #1ED794;}
+
+.footnote{ color: grey;  font-weight: lighter;opacity: 0.9;}
+
+
